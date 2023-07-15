@@ -1,0 +1,1 @@
+[05-Mar-2023 22:03:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/recycleproco/public_html/vendor/symfony/polyfill-mbstring/bootstrap80.php on line 15

@@ -1,0 +1,3 @@
+net\authorize\api\contract\v1\ErrorResponse:
+    xml__name: ErrorResponse
+    xml__namespace: AnetApi/xml/v1/schema/AnetApiSchema.xsd

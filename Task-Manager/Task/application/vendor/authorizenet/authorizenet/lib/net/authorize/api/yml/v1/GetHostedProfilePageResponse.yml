@@ -1,0 +1,14 @@
+net\authorize\api\contract\v1\GetHostedProfilePageResponse:
+    xml__name: getHostedProfilePageResponse
+    xml__namespace: AnetApi/xml/v1/schema/AnetApiSchema.xsd
+    properties:
+        token:
+            expose: true
+            access_type: public_method
+            serialized_name: token
+            xml_element:
+                namespace: AnetApi/xml/v1/schema/AnetApiSchema.xsd
+            accessor:
+                getter: getToken
+                setter: setToken
+            type: string

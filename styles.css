@@ -1,0 +1,147 @@
+ body {
+  margin: 0;
+  padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1202px;
+	 height: 2366px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1202px;
+	 height: 2366px;
+	 z-index:1;
+} 
+
+ #RecycleProPPCImage1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1202px;
+	 height: 105px;
+	 z-index:2;
+} 
+
+ #RecycleProPPCImage3 
+{ 
+	 left: 0px; 
+	 top: 105px; 
+	 position: absolute; 
+	 width: 1202px;
+	 height: 324px;
+	 z-index:3;
+} 
+
+ #RecycleProPPCImage4 
+{ 
+	 left: 0px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 1202px;
+	 height: 91px;
+	 z-index:4;
+} 
+
+ #RecycleProPPCImage27 
+{ 
+	 left: 192px; 
+	 top: 520px; 
+	 position: absolute; 
+	 width: 824px;
+	 height: 241px;
+	 z-index:5;
+} 
+
+ #RecycleProPPCImage5 
+{ 
+	 left: 180px; 
+	 top: 702px; 
+	 position: absolute; 
+	 width: 842px;
+	 height: 129px;
+	 z-index:6;
+} 
+
+ #RecycleProPPCImage6 
+{ 
+	 left: 171px; 
+	 top: 801px; 
+	 position: absolute; 
+	 width: 880px;
+	 height: 247px;
+	 z-index:7;
+} 
+
+ #RecycleProPPCImage14 
+{ 
+	 left: 207px; 
+	 top: 1030px; 
+	 position: absolute; 
+	 width: 783px;
+	 height: 237px;
+	 z-index:8;
+} 
+
+ #RecycleProPPCImage18 
+{ 
+	 left: 0px; 
+	 top: 2045px; 
+	 position: absolute; 
+	 width: 1202px;
+	 height: 321px;
+	 z-index:9;
+} 
+
+ #RecycleProPPCImage24 
+{ 
+	 left: 60px; 
+	 top: 1215px; 
+	 position: absolute; 
+	 width: 917px;
+	 height: 283px;
+	 z-index:10;
+} 
+
+ #RecycleProPPCImage25 
+{ 
+	 left: 62px; 
+	 top: 1484px; 
+	 position: absolute; 
+	 width: 915px;
+	 height: 276px;
+	 z-index:11;
+} 
+
+ #RecycleProPPCImage26 
+{ 
+	 left: 60px; 
+	 top: 1747px; 
+	 position: absolute; 
+	 width: 917px;
+	 height: 290px;
+	 z-index:12;
+} 
+
+ #RecycleProPPCImage17 
+{ 
+	 left: 958px; 
+	 top: 1259px; 
+	 position: absolute; 
+	 width: 209px;
+	 height: 770px;
+	 z-index:13;
+} 

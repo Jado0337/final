@@ -1,0 +1,66 @@
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fopen(cIntro.txt): failed to open stream: No such file or directory in wr-m6/apps/front/products/pdf.php on line 74
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  filesize(): stat failed for cIntro.txt in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fopen(cStandard.txt): failed to open stream: No such file or directory in wr-m6/apps/front/products/pdf.php on line 74
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  filesize(): stat failed for cStandard.txt in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fopen(cPrototype.txt): failed to open stream: No such file or directory in wr-m6/apps/front/products/pdf.php on line 74
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  filesize(): stat failed for cPrototype.txt in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:51:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:51:42 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at wr-m6/apps/front/products/pdf.php:74) in wr-m6/apps/front/products/fpdf.php:273
+Stack trace:
+#0 wr-m6/apps/front/products/fpdf.php(1046): FPDF->Error('Some data has a...')
+#1 wr-m6/apps/front/products/fpdf.php(1003): FPDF->_checkoutput()
+#2 wr-m6/apps/front/products/pdf.php(131): FPDF->Output()
+#3 {main}
+  thrown in wr-m6/apps/front/products/fpdf.php on line 273
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fopen(temp/BHqU5v): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 77
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fopen(temp/BHqU5v): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 77
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fopen(temp/BHqU5v): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in wr-m6/apps/front/products/pdf.php on line 75
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:57:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in wr-m6/apps/front/products/pdf.php on line 77
+[18-Dec-2022 09:57:27 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at wr-m6/apps/front/products/pdf.php:75) in wr-m6/apps/front/products/fpdf.php:273
+Stack trace:
+#0 wr-m6/apps/front/products/fpdf.php(1046): FPDF->Error('Some data has a...')
+#1 wr-m6/apps/front/products/fpdf.php(1003): FPDF->_checkoutput()
+#2 wr-m6/apps/front/products/pdf.php(132): FPDF->Output()
+#3 {main}
+  thrown in wr-m6/apps/front/products/fpdf.php on line 273
+[18-Dec-2022 09:58:42 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v.txt in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:42 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:43 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v.txt in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:43 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:43 UTC] PHP Warning:  filesize(): stat failed for temp/BHqU5v.txt in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:43 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in wr-m6/apps/front/products/pdf.php on line 76
+[18-Dec-2022 09:58:43 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at wr-m6/apps/front/products/pdf.php:76) in wr-m6/apps/front/products/fpdf.php:273
+Stack trace:
+#0 wr-m6/apps/front/products/fpdf.php(1046): FPDF->Error('Some data has a...')
+#1 wr-m6/apps/front/products/fpdf.php(1003): FPDF->_checkoutput()
+#2 wr-m6/apps/front/products/pdf.php(132): FPDF->Output()
+#3 {main}
+  thrown in wr-m6/apps/front/products/fpdf.php on line 273
+[18-Dec-2022 10:17:41 UTC] PHP Warning:  rename(home/recycleproco/public_html/BHqU5v,home/recycleproco/public_html/BHqU5v.pdf): No such file or directory in wr-m6/apps/front/products/pdf.php on line 2
+[18-Dec-2022 10:18:41 UTC] PHP Warning:  rename(home/recycleproco/public_html/lDI539.pdf,home/recycleproco/public_html/lDI539.pdf): No such file or directory in wr-m6/apps/front/products/pdf.php on line 2
+[18-Dec-2022 10:19:38 UTC] PHP Warning:  rename(): http wrapper does not support renaming in wr-m6/apps/front/products/pdf.php on line 2
+[18-Dec-2022 10:20:17 UTC] PHP Warning:  rename(www.recyclepro.co.uk/temp/lDI539.pdf,www.recyclepro.co.uk/temp/lDI539.pdf): No such file or directory in wr-m6/apps/front/products/pdf.php on line 2
+[18-Dec-2022 11:22:03 UTC] PHP Warning:  file_get_contents(): Peer certificate CN=`5871684.subserve.co.uk' did not match expected CN=`162.240.75.162' in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 11:22:03 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 11:22:03 UTC] PHP Warning:  file_get_contents(https://162.240.75.162:2083/cpsess2931320825/frontend/paper_lantern/filemanager/showfile.html?file=d1ZKQb&amp;fileop=&amp;dir=%2Fhome%2Frecycleproco%2Fpublic_html%2Ftemp&amp;dirop=&amp;charset=&amp;file_charset=&amp;baseurl=&amp;basedir=): failed to open stream: operation failed in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 11:22:05 UTC] PHP Warning:  file_get_contents(): Peer certificate CN=`5871684.subserve.co.uk' did not match expected CN=`162.240.75.162' in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 11:22:05 UTC] PHP Warning:  file_get_contents(): Failed to enable crypto in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 11:22:05 UTC] PHP Warning:  file_get_contents(https://162.240.75.162:2083/cpsess2931320825/frontend/paper_lantern/filemanager/showfile.html?file=d1ZKQb&amp;fileop=&amp;dir=%2Fhome%2Frecycleproco%2Fpublic_html%2Ftemp&amp;dirop=&amp;charset=&amp;file_charset=&amp;baseurl=&amp;basedir=): failed to open stream: operation failed in wr-m6/apps/front/products/pdf.php on line 14
+[18-Dec-2022 12:41:25 UTC] PHP Warning:  rename(temp/LVs5Hh,temp/LVs5Hh.pdf): No such file or directory in wr-m6/apps/front/products/pdf.php on line 3
+[18-Dec-2022 12:58:31 UTC] PHP Warning:  rename(temp/LVs5Hh,temp/LVs5Hh.pdf): No such file or directory in wr-m6/apps/front/products/pdf.php on line 3

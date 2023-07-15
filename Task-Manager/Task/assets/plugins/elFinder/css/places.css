@@ -1,0 +1,27 @@
+/*********************************************/
+/*               PLACES STYLES               */
+/*********************************************/
+/*  extra icon */
+.elfinder-navbar- .elfinder-places--icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.elfinder-ltr .elfinder-places--icon {
+    right: 10px;
+}
+
+.elfinder-rtl .elfinder-places--icon {
+    left: 10px;
+}
+
+.elfinder-navbar-expanded .elfinder-places--icon {
+    display: block;
+}
+
+/* dragging helper base */
+.elfinder-place-drag {
+    font-size: 0.8em;
+}
